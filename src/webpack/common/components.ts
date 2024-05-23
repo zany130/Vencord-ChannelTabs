@@ -61,7 +61,6 @@ export const Flex = waitForComponent<t.Flex>("Flex", ["Justify", "Align", "Wrap"
 export const { OAuth2AuthorizeModal } = findByPropsLazy("OAuth2AuthorizeModal");
 
 waitFor(["FormItem", "Button"], m => {
-<<<<<<< .merge_file_ZOhHMH
     ({
         useToken,
         Card,
@@ -82,11 +81,9 @@ waitFor(["FormItem", "Button"], m => {
         ScrollerThin,
         Clickable,
         Avatar,
+        Dots,
         FocusLock,
         Heading
     } = m);
-=======
-    ({ useToken, Card, Button, FormSwitch: Switch, Tooltip, TextInput, TextArea, Text, Select, SearchableSelect, Slider, ButtonLooks, TabBar, Popout, Dialog, Paginator, ScrollerThin, Clickable, Avatar, Dots, FocusLock } = m);
->>>>>>> .merge_file_OTF87s
     Forms = m;
 });
